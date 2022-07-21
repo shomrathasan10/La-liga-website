@@ -108,7 +108,16 @@ main {
 .icon-text {
     padding: 5px;
 }
-
+.container {
+    display: flex;
+}
+.container img {
+    width: 224px;
+    height: 104px;
+}
+.match-summary {
+    display: block;
+}
 footer {
     text-align: center;
     padding: 3px;
@@ -139,19 +148,19 @@ footer {
     position: relative;
     top: 10px;
   }
-  @media only screen and (max-width: 1200px) {
-        .wrapper {
-            width: 100%;
-            float: none;
-            display: block;
-            text-align: left;
-            flex-direction: column;
-         }
-           .header-titile {
-            background-color: red;
-            
-           }
-           .main-wrapper {
-            display: none;
-           }
+  @media only screen and (max-width:620px) {
+    .text {
+        width: 20%;
+    }
+    .imge {
+        width: 25%;
+    }
+    
   }
+  @media only screen and (max-width:500px) {
+    .header-titile {
+        flex-direction: column;
+    }
+  }
+    
+  
