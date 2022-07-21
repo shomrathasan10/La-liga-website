@@ -160,6 +160,12 @@ footer {
     padding: 10px;
     position: relative;
     top: 10px;
+
+  }
+  .link {
+    margin: 8px;
+    font-size: 25px;
+    color: white;
   }
   @media only screen and (max-width:620px) {
     .text {
